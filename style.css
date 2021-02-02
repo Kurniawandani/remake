@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Poppins&display=swap");
+
+/* NAVBAR */
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar {
+  background: #303030;
+}
+.nav-link {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins";
+  margin-bottom: 5px;
+  text-transform: lowercase;
+}
+.nav-link:hover {
+  color: #cfac71;
+}
+.icon-menu {
+  color: #ffffff;
+}
+
+.btn-menu:focus {
+  box-shadow: 0 0 5px rgb(255, 255, 255, 0.5);
+}
+.btn-join {
+  font-family: "Poppins";
+  width: 100%;
+  background: #cfac71;
+  color: #ffffff;
+}
+.btn-join:hover {
+  background: transparent;
+  border: 1px solid #cfac71;
+  color: #ffffff;
+}
+.opac {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+.carousel {
+  position: relative;
+}
+h1:nth-child(1) {
+  letter-spacing: 5px;
+}
+h1:nth-child(3) {
+  text-transform: capitalize;
+}
+
+.text-typo {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: "Old Standard TT";
+  color: #ffffff;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  font-family: "Poppins";
+  z-index: 2;
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 8px;
+}
+
+.inp-date {
+  width: 120px;
+}
+.inp-date input {
+  text-align: center;
+  font-size: 10px;
+  border-radius: 12px;
+}
+.inp-date button {
+  font-size: 10px;
+  border-radius: 12px;
+  background: #cfac71;
+  outline: none;
+  color: #ffffff;
+}
+
+.inp-date button:hover {
+  background: #303030;
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  /* NAVBAR */
+  .btn-join {
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  .nav-link {
+    text-transform: capitalize;
+  }
+  .navbar-nav {
+    width: 400px;
+    justify-content: space-around;
+  }
+  .typo-img,
+  .opac {
+    height: 600px;
+    width: 100%;
+  }
+  .input-group {
+    margin: 0 -8px;
+  }
+  .inp-date input {
+    text-align: center;
+    letter-spacing: 2px;
+    width: 250px;
+    font-size: 20px;
+    height: 50px;
+  }
+  .inp-date button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .carousel {
+    height: 600px;
+    width: 100%;
+  }
+}
